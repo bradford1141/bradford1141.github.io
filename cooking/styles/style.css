@@ -99,11 +99,11 @@ div{
   box-shadow: 5px 5px 10px #6f7364;
   height: 300px;
   width: 300px;
-  grid-column: 6/10;
 }
 .ingred-img{
-  grid-row: 2/3;
-  grid-column: 6/10;
+  grid-row: 1/-1;
+  grid-column: 2/3;
+  align-self: center;
   height: 300px;
   width: 500px;
   border: 10px solid #4583B0;
@@ -111,8 +111,9 @@ div{
   box-shadow: 5px 5px 10px #6f7364;
 }
 .ingred-img2{
-  grid-row: 2/3;
-  grid-column: 6/10;
+  grid-row: 1/-1;
+  grid-column: 2/3;
+  align-self: center;
   height: 350px;
   width: 400px;
   border: 10px solid #4583B0;
@@ -120,8 +121,24 @@ div{
   box-shadow: 5px 5px 10px #6f7364;
 }
 .ingredients{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-row: 2/3;
-  grid-column: 2/6;
+  grid-column: 2/10;
+}
+.ingredients h2, .ingredients p{
+  grid-column: 1/2;
+}
+.ingredients2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row: 2/3;
+  grid-column: 2/10;
+}
+.ingredients2 h2, .ingredients2 p{
+  grid-column: 1/2;
 }
 .instructions{
   grid-row: 3/4;
