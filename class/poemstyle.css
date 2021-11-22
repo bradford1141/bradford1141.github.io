@@ -1,0 +1,41 @@
+.box-1{
+    border-style: solid;
+    width: 550px;
+    margin-right: auto;
+}
+.box-2{
+    border-style: solid;
+    width: 550px;
+    margin: 0 auto;
+}
+.box-3{
+    border-style: solid;
+    width: 550px;
+    margin-left: auto;
+}
+.box-4{
+    border-style: solid;
+    width: 550px;
+    margin: 0 auto;
+}
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    text-align: right;
+}
+.p1-1{
+    text-align: right;
+}
+.p2-2{
+    text-align: center;
+}
+.p3-3{
+    text-align: left;
+}
+.p4-4{
+    text-align: left;
+}
