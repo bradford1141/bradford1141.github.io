@@ -22,7 +22,6 @@ nav a{
 }
 nav a:hover{
   background-color: #C03F71;
-  padding: 25px 50px;
   color: white;
 }
 .search{
@@ -157,7 +156,7 @@ div{
 
 footer{
   font-family: 'Courier Prime', monospace;
-  padding: 25px 50px;
+  padding: 25px 40px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -170,6 +169,7 @@ footer a{
 }
 footer h4 a{
   padding: 25px 25px;
+  margin: 15px;
 }
 footer h4 a:hover{
   background-color: #C03F71;
