@@ -27,10 +27,12 @@ button{
     width: 50%;
     justify-self: center;
     height: 55px;
+    border: none;
     border-radius: 10px;
     
 }
 #name, #email {
+    border: none;
     border-radius: 10px;
     padding-left: 20px;
     font-size: 15px;
