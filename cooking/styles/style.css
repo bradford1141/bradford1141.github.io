@@ -5,8 +5,8 @@ header{
 }
 .logo{
     width: 80px;
-    margin-top: 15px;
-    margin-left: 15px;
+    display: grid;
+    place-items: center;
 }
 #cook{
   grid-column: 3/9;
@@ -89,6 +89,7 @@ div{
   grid-column: 3/9;
   grid-row: 1/2;
   text-align: center;
+  line-height: 40px;
 }
 #background h2{
   font-size: 2.5em;
@@ -128,21 +129,31 @@ div{
 .ingredients{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
   grid-row: 2/3;
   grid-column: 2/10;
   margin-top: 100px;
+}
+.ingredients2 p{
+  margin: 20px;
+  margin-left: 0;
 }
 .ingredients h2, .ingredients p{
   grid-column: 1/2;
 }
+.ingredients h2{
+  font-size: 45px;
+}
 .ingredients2{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(9, auto);
   grid-row: 2/3;
   grid-column: 2/10;
   margin-top: 100px;
+}
+.ingredients2 h2{
+  font-size: 45px;
 }
 .ingredients2 h2, .ingredients2 p{
   grid-column: 1/2;
@@ -150,8 +161,11 @@ div{
 .instructions{
   grid-row: 3/4;
   grid-column: 2/6;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 100px;
+}
+.instructions h2{
+  font-size: 45px;
 }
 
 footer{
@@ -162,6 +176,8 @@ footer{
   justify-content: space-around;
   background-color: #4583B0;
   color: black;
+  font-size: 17px;
+  padding-bottom: 15px;
 }
 footer a{
   text-decoration: none;
